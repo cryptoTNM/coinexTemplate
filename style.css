@@ -92,6 +92,12 @@
 	background-color: #f1f1f1;
 	padding: 35px;
 }
+.custom-card{
+	-webkit-box-shadow: 0px 5px 15px -5px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 5px 15px -5px rgba(0,0,0,0.75);
+	box-shadow: 0px 5px 15px -5px rgba(0,0,0,0.75);
+	background-color: rgba(0.30, 0.30, 0.30, 0.16);
+}
 .section-2-content:hover{
 	background-image: url("image/section-2.jpg");
 	transition: all 0.4s ease-out 0s;
@@ -162,6 +168,13 @@
 .section-7 h6{
 	font-size: 20px;
 }
+.investor-img:hover{
+	transition: 5s;
+	opacity: 2;
+	filter: blur(1px);
+	z-index: -1;
+	background-size: 110%;
+}
 .section-8-name:hover{
 	color: #f9b707;
 	text-decoration: none;
@@ -178,6 +191,23 @@
     background-repeat: no-repeat;
     background-size: cover;
 	color: #fff;
+}
+.section-9-left h3{
+	font-size: 54px;
+	line-height: 64px;
+}
+.section-9-left ul li{
+	padding-top: 15px;
+	list-style-type: none;
+}
+.section-9-right-h4{
+	padding-right: 45px;
+}
+.section-9-right-icon{
+	padding-bottom: 20px;
+	margin-top: 10px;
+	margin-right: 10px;
+	color: #f9b707;
 }
 .section-10{
 	background-color: #f7f7f7;
