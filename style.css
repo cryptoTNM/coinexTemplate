@@ -38,18 +38,6 @@
 	width: 200px;
 }
 
-/*after navbar*/
-.section-1 .section-1-title:before{
-	content: "";
-	position: absolute;
-	bottom: 0;
-	left: 50%;
-	margin-left: -40px;
-	width: 80px;
-	height: 3px;
-	background: #f9b707;
-	display: inline-block;
-}
 .section-1 h3{
 	font-size: 40px;
 	line-height: 50px;
@@ -209,11 +197,6 @@
 	font-size: 20px;
 }
 .investor-img:hover{
-	/*transition: 5s;
-	opacity: 2;
-	filter: blur(1px);
-	z-index: -1;
-	background-size: 110%;*/
 	transform: scale(1.3);
     -ms-transform: scale(1.3);
     -webkit-transform: scale(1.3);
