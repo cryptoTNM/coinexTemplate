@@ -61,36 +61,38 @@
 	padding-right: 100px;
 	color: #000000ad;
 }
-.read-more:hover{
-	color: #f9b707;
+.section-2-content:hover a {
+	color: #fff;
 	text-decoration: none;
 }
-.read-more{
-	color: #000000ad;
+.section-2-content a {
+	color: #000;
 }
-.read-more p{
-	color: #000000ad;
+.section-2-content a:hover{
+	color: #f9b707;
 }
 .section-2 h5{
 	font-size: 28px;
 	padding-top: 20px;
 	color: #6f6d6d;
 }
-.section-2 h5:hover{
+.section-2-content:hover h5{
+	color: #fff;
+}
+.section-2-content h5:hover {
 	color: #f9b707;
 }
-.section-2 p:hover{
+.section-2-content:hover p{
 	color: #fff;
 }
 .section-2-icon{
 	color: #6f6d6d;
 }
-.section-2-icon:hover{
+.section-2-content:hover .section-2-icon{
 	color: #fff;
 }
 .section-2-content{
 	background-color: #f1f1f1;
-	padding: 35px;
 }
 .custom-card{
 	-webkit-box-shadow: 0px 5px 15px -5px rgba(0,0,0,0.75);
@@ -98,8 +100,12 @@
 	box-shadow: 0px 5px 15px -5px rgba(0,0,0,0.75);
 	background-color: rgba(0.30, 0.30, 0.30, 0.16);
 }
-.section-2-content:hover{
+.section2-overlay {
+	padding: 35px;
+}
+.section-2-content:hover {
 	background-image: url("image/section-2.jpg");
+	background-size: cover;
 	transition: all 0.4s ease-out 0s;
 	color: #fff;
 	-webkit-box-shadow: 0px 5px 15px -5px rgba(0,0,0,0.75);
@@ -107,21 +113,45 @@
 	box-shadow: 0px 5px 15px -5px rgba(0,0,0,0.75);
 	background-color: rgba(0.30, 0.30, 0.30, 0.16);
 }
+.section-2-content:hover .section2-overlay{
+	background: #0000009e;
+}
+.section-2-content:hover .section-4-p {
+     color:#f9b707;
+     text-decoration: none; 
+}
+.section-2-content:hover .section-4-header a{
+	 color:#f9b707;
+     text-decoration: none; 
+}
+
+/*section-3*/
+
 .section-3{
 	background-image: url("image/bg-13.jpg");
 	background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    color: #fff;
+    line-height: 30px;
 }
-.section-4-p:hover{
+.sec3-overlay{
+	background: #000000b5;
+}
+/*section-4*/
+
+.section-4-link:hover {
      color:#f9b707;
      text-decoration: none; 
 }
-.section-4-header a:hover{
-	 color:#f9b707;
-     text-decoration: none; 
+.sec4-title a:hover{
+	text-decoration: none;
+	color: #f9b707;
 }
+
+/*section-6*/
+
 .section-6-icon{
 	border-radius: 90px;
     height: 70px;
@@ -142,6 +172,13 @@
 }
 .section-6-content{
 	padding-top: 70px;
+}
+
+
+/*section-7*/
+
+.sec7-overlay{
+	background: #171616b8;
 }
 .section-7{
 	background-image: url("image/bg-7.jpg");
@@ -175,6 +212,10 @@
 	z-index: -1;
 	background-size: 110%;
 }
+
+
+/*section-8*/
+
 .section-8-name:hover{
 	color: #f9b707;
 	text-decoration: none;
@@ -183,6 +224,14 @@
 	color: black;
 	font-size: 20px;
 	font-weight: bold;
+}
+
+
+/*section-9*/
+
+
+.sec9-overlay{
+	background: #000000c7;
 }
 .section-9{
 	background-image: url("image/bg-5.jpg");
@@ -209,12 +258,19 @@
 	margin-right: 10px;
 	color: #f9b707;
 }
+
+
+/*section-10*/
+
 .section-10{
 	background-color: #f7f7f7;
 }
 .section-10-content{
 	padding-left: 150px;
 	padding-right: 150px;
+}
+.section-10-img{
+	border-radius: 100%;
 }
 .card-title{
 	color: #666666;
@@ -232,6 +288,10 @@
     background: #f9b707;
     color: #ffffff;
 }
+
+
+/*section-11*/
+
 .section-11{
 	background-image: url("image/bg-13.jpg");
 	color: #fff;
@@ -242,9 +302,10 @@
 .section-11-icon{
 	color: #f9b707;
 }
-.section-10-img{
-	border-radius: 100%;
+.section-11 .section-11-overlay{
+	background-color: #2b2929a8;
 }
+
 .custom-menu li{
 	list-style: none;
 	margin-top: 15px;
@@ -263,7 +324,7 @@
 }
 .custom-form{
 	background-color: #80808096;
-	padding: 30px 10px 10px 25px;
+	padding: 0 10px 10px 25px;
 	margin-bottom: 80px;
 }
 .section-11-button{
