@@ -139,6 +139,9 @@
 .sec3-overlay{
 	background: #000000b5;
 }
+.section-3 h2{
+	font-size: 60px;
+}
 /*section-4*/
 
 .section-4-link:hover {
@@ -287,6 +290,10 @@
     padding: 2px 8px;
     background: #f9b707;
     color: #ffffff;
+}
+.card-link:hover{
+	text-decoration: none;
+	color:#f9b707; 
 }
 
 
