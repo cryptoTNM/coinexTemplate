@@ -209,11 +209,23 @@
 	font-size: 20px;
 }
 .investor-img:hover{
-	transition: 5s;
+	/*transition: 5s;
 	opacity: 2;
 	filter: blur(1px);
 	z-index: -1;
-	background-size: 110%;
+	background-size: 110%;*/
+	transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.img-container{
+	overflow: hidden;
+}
+.investor-img{
+	-webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 
