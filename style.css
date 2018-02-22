@@ -130,6 +130,9 @@
 .section-3 h2{
 	font-size: 60px;
 }
+.section-3 .card{
+	border: none;
+}
 /*section-4*/
 
 .section-4-link:hover {
@@ -153,6 +156,11 @@
     color: #fff;
     background-color:#f9b707; 
 }
+
+.section-6-img {
+	max-width: 100%;
+}
+
 .section-6 h3{
 	font-size: 40px;
 	font-weight: 500px;
@@ -209,6 +217,7 @@
 .investor-img{
 	-webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
+    width: 100%;
 }
 
 
@@ -243,18 +252,32 @@
 	font-size: 54px;
 	line-height: 64px;
 }
+.section-9 ul {
+	padding: 0;
+}
 .section-9-left ul li{
 	padding-top: 15px;
 	list-style-type: none;
 }
-.section-9-right-h4{
-	padding-right: 45px;
-}
 .section-9-right-icon{
 	padding-bottom: 20px;
 	margin-top: 10px;
-	margin-right: 10px;
 	color: #f9b707;
+}
+
+.section-9-item-subtitle {
+	font-weight: 300;
+    font-size: 1.4rem;
+}
+
+.stat-item {
+	text-align: center;
+}
+
+@media (min-width: 992px) {
+	.stat-item {
+		text-align: left;
+	}	
 }
 
 
@@ -326,7 +349,7 @@
 }
 .custom-form{
 	background-color: #80808096;
-	padding: 0 10px 10px 25px;
+	padding: 0 15px 10px 15px;
 	margin-bottom: 80px;
 }
 .section-11-button{
@@ -334,5 +357,13 @@
 	color: #fff;
 }
 .section-11-button:hover{
-	background-color:#1e1d4edb;
+	background-color: #c38e00;
+}
+
+.form-callback .form-group {
+	width: 100%;
+}
+
+.form-callback .form-row {
+	margin: 0;
 }
