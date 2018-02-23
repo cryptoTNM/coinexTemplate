@@ -386,18 +386,20 @@
 }
 .custom-menu li{
 	list-style: none;
-	padding: 10px;
+    padding-top: 15px;
 }
 .custom-menu li a{
 	padding: 10px;
 	color: #fff;
-	padding: 10px;
+	padding-right: 100%;
+	padding: 10px 90px 10px 10px;
 }
 .custom-menu li a:hover{
 	text-decoration: none;
 	background-color: #80808096;
 	color: #f9b707;
-	padding: 10px 10px 10px 10px;
+	padding-right: 100%;
+	padding: 10px 90px 10px 10px;
 }
 .custom-form .form-row .form-group .form-control{
 	border-radius: 0px;
