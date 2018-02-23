@@ -1,3 +1,11 @@
+.home{
+	background-image: url('image/top-bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.top-bg{
+	width: 100%;
+}
 .brand-logo{
 	height: 40px;
 	/*padding-left: 100px;*/
@@ -24,9 +32,6 @@
 }
 .custom-navbar .navbar-nav .dropdown-menu.dropdown-color{
 	background-color: #f9b707; 
-}
-.top-bg{
-	width: 100%;
 }
 .image-transition{
 	height: 600px;
