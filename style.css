@@ -381,12 +381,20 @@
 .section-11 .section-11-overlay{
 	background-color: #2b2929a8;
 }
-
+.custom-menu{
+	padding: 0;
+}
 .custom-menu li{
 	list-style: none;
-	margin-top: 15px;
+	padding: 10px;
 }
-.custom-menu li:hover{
+.custom-menu li a{
+	padding: 10px;
+	color: #fff;
+	padding: 10px;
+}
+.custom-menu li a:hover{
+	text-decoration: none;
 	background-color: #80808096;
 	color: #f9b707;
 	padding: 10px 10px 10px 10px;
