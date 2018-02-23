@@ -1,7 +1,6 @@
 .home{
 	background-image: url('image/top-bg.jpg');
 	background-repeat: no-repeat;
-	background-size: cover;
 }
 .top-bg{
 	width: 100%;
@@ -41,6 +40,28 @@
 }
 .image-transition:hover {
 	width: 200px;
+}
+.home-content h1{
+	color: #fff;
+	font-size: 50px;
+}
+.home-content p{
+	color: #fff;
+	font-size: 20px;
+	margin-bottom: 70px;
+	margin-top: 30px;
+}
+.home-content a{
+	color: #fff;
+	padding: 10px 20px;
+	background-color:#f9b707; 
+}
+.home-content a:hover{
+	text-decoration: none;
+	background-color: #13139654;
+}
+.home-content{
+	padding-top: 200px;
 }
 
 .section-1 h3{
